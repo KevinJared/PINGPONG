@@ -1,5 +1,6 @@
-h1{
-    font-size-adjust: 35px;
+header h1{
+    font-size: 70px;
+    letter-spacing: 15px;
 }
 .flex-container {
     display: -webkit-flex;
@@ -20,9 +21,10 @@ h1{
 }
 
 header {
-	background-color: black; color: white;
+	background-image: url(../image/banner.jpg);
     font-family: Fantasy;
-
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 footer {
 	background: #aaa;color:white;
@@ -33,12 +35,24 @@ footer {
 
 .about {
 	background:#eee;
-	padding-top: 0px;
 	margin-top: 20px;
 	height: 100vh;
 }
+.btn {
+  background-color: #ddd;
+  border: none;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+}
 
-@media all and (min-width: 768px) {
+.btn:hover {
+  background-color: #3e8e41;
+  color: white;
+}
+
+@media all and (min-width: 100vh) {
     .about {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}
     .article {-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}
     footer {-webkit-order:3;order:3;}
