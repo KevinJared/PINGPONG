@@ -1,0 +1,40 @@
+.flex-container {
+    display: -webkit-flex;
+    display: flex;  
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.flex-container > * {
+    padding: 15px;
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+}
+
+.article {
+    text-align: left;
+}
+
+header {
+	background: black;color:white;
+}
+footer {
+	background: #aaa;color:white;
+	bottom: 0;
+	position: fixed;
+	width: 100%
+}
+
+.about {
+	background:#eee;
+	padding-top: 0px;
+	margin-top: 20px;
+	height: 100vh;
+}
+
+@media all and (min-width: 768px) {
+    .about {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}
+    .article {-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}
+    footer {-webkit-order:3;order:3;}
+}

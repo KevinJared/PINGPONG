@@ -4,7 +4,7 @@ This is a front end project that has been built primarily on bootstrap, CSS and 
 
 ## Getting Started
 
-To get started with this project, clone the project onto the location of choice and locate index.html in the parent folder. Open the file with a browser of your choice and view the website on yur local machine.
+To get started with this project, clone the project onto the location of choice and locate index.html in the parent folder. Open the file (index.html) with a browser of your choice and view the website on yur local machine.
 
 ## Built With
 
@@ -15,4 +15,4 @@ To get started with this project, clone the project onto the location of choice 
 
 ## Authors
 
-* **Kevin Jared** 
+**Kevin Jared** 
