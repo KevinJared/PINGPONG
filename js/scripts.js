@@ -30,6 +30,11 @@ $(document).ready(function ()  {
     
     $(".btn").click(function(event){
         event.preventDefault();
+
+        arr=[];
+
+        $("#list-items").empty("");
+
        var passedNumber =  parseInt($("#num").val());
  
        test(passedNumber);
