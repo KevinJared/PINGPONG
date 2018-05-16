@@ -26,8 +26,7 @@ $(document).ready(function ()  {
                 }  }
 
             }
-           
-    
+
     $(".btn").click(function(event){
         event.preventDefault();
 
@@ -36,12 +35,12 @@ $(document).ready(function ()  {
         $("#list-items").empty("");
 
        var passedNumber =  parseInt($("#num").val());
- 
+
        test(passedNumber);
        arr.forEach(function(e){
              $("#list-items").append($("<li>").html(e));
          });
-       
+
 
     });
 });
