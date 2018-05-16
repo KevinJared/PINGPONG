@@ -14,12 +14,6 @@ header h1{
     text-align: center;
 }
 
-.flex-container > * {
-    padding: 15px;
-    -webkit-flex: 1 100%;
-    flex: 1 100%;
-}
-
 .article {
     height: 100vh;
     text-align: left;
