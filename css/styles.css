@@ -1,10 +1,14 @@
+.flex-container{
+    background-size: cover;
+    height: 100vh;
+}
 header h1{
     font-size: 70px;
     letter-spacing: 15px;
 }
 .flex-container {
     display: -webkit-flex;
-    display: flex;  
+    display: flex;
     -webkit-flex-flow: row wrap;
     flex-flow: row wrap;
     text-align: center;
@@ -17,7 +21,13 @@ header h1{
 }
 
 .article {
+    height: 100vh;
     text-align: left;
+}
+.about{
+    height: 100vh;
+    background-color: grey;
+    color: white;
 }
 
 header {
@@ -31,12 +41,6 @@ footer {
 	bottom: 0;
 	position: fixed;
 	width: 100%
-}
-
-.about {
-	background:#eee;
-	margin-top: 20px;
-
 }
 .btn {
   background-color: #ddd;
